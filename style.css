@@ -1,0 +1,37 @@
+/* Importación de la tipografía Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Definición de colores basados en tu logo */
+:root {
+    --rojo-amas: #e61e25;
+    --amarillo-amas: #ffde00;
+    --azul-amas: #0082c8;
+    --verde-amas: #00a651;
+    --cafe-tronco: #4b2c20;
+    --blanco-fondo: #ffffff;
+    --texto-oscuro: #212121;
+}
+
+/* Aplicación global de Tipografía y Colores */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--blanco-fondo);
+    color: var(--texto-oscuro);
+    margin: 0;
+    padding: 0;
+}
+
+/* Colores para títulos y énfasis */
+h1, h2, h3 {
+    color: var(--cafe-tronco);
+    font-weight: 700;
+}
+
+a {
+    color: var(--azul-amas);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--rojo-amas);
+}
